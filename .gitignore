@@ -6,3 +6,4 @@ node_modules/
 backup/
 src/CubismSdkForWeb-*/
 build/CubismSdkForWeb-*/
+live2d_api/
