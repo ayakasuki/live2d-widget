@@ -1,8 +1,5 @@
 {
   "mouseover": [{
-    "selector": "#live2d",
-    "text": ["干嘛呢你，快把手拿开～～", "鼠…鼠标放错地方了！", "你要干嘛呀？", "喵喵喵？", "怕怕(ノ≧∇≦)ノ", "非礼呀！救命！", "这样的话，只能使用武力了！", "我要生气了哦", "不要动手动脚的！", "真…真的是不知羞耻！", "Hentai！"]
-  }, {
     "selector": "#waifu-tool-hitokoto",
     "text": ["猜猜我要说些什么？", "我从青蛙王子那里听到了不少人生经验。"]
   }, {
@@ -175,9 +172,6 @@
     "text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
   }],
   "click": [{
-    "selector": "#live2d",
-    "text": ["是…是不小心碰到了吧…", "萝莉控是什么呀？", "你看到我的小熊了吗？", "再摸的话我可要报警了！⌇●﹏●⌇", "110 吗，这里有个变态一直在摸我(ó﹏ò｡)", "不要摸我了，我会告诉老婆来打你的！", "干嘛动我呀！小心我咬你！", "别摸我，有什么好摸的！"]
-  }, {
     "selector": ".veditor",
     "text": ["要吐槽些什么呢？", "一定要认真填写喵～", "有什么想说的吗？"]
   }, {
@@ -257,50 +251,67 @@
     "goodbye": "愿你有一天能与重要的人重逢。",
     "hitokoto": "这句一言来自 <span>「$1」</span>，是 <span>$2</span> 在 hitokoto.cn 投稿的。",
     "welcome": "欢迎阅读<span>「$1」</span>",
-    "referrer": "Hello！来自 <span>$1</span> 的朋友"
+    "referrer": "Hello！来自 <span>$1</span> 的朋友",
+    "hoverBody": ["干嘛呢你，快把手拿开～～", "鼠…鼠标放错地方了！", "你要干嘛呀？", "喵喵喵？", "怕怕(ノ≧∇≦)ノ", "非礼呀！救命！", "这样的话，只能使用武力了！", "我要生气了哦", "不要动手动脚的！", "真…真的是不知羞耻！", "Hentai！"],
+    "tapBody": [["是…是不小心碰到了吧…", "萝莉控是什么呀？", "你看到我的小熊了吗？", "再摸的话我可要报警了！⌇●﹏●⌇", "110 吗，这里有个变态一直在摸我(ó﹏ò｡)", "不要摸我了，我会告诉老婆来打你的！", "干嘛动我呀！小心我咬你！", "别摸我，有什么好摸的！"]]
   },
   "models": [{
     "name": "Potion-Maker/Pio",
-    "paths": ["/live2d-widget/live2d_api/model/Potion-Maker/Pio/index.json"],
+    "paths": ["https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Pio/index.json"],
     "message": "来自 Potion Maker 的 Pio 酱 ~"
   }, {
     "name": "Potion-Maker/Tia",
-    "paths": ["/live2d-widget/live2d_api/model/Potion-Maker/Tia/index.json"],
+    "paths": ["https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Tia/index.json"],
     "message": "来自 Potion Maker 的 Tia 酱 ~"
   }, {
     "name": "HyperdimensionNeptunia",
     "paths": [
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/neptune_classic/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/nepnep/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/neptune_santa/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/nepmaid/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/nepswim/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/noir_classic/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/noir/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/noir_santa/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/noireswim/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/blanc_classic/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/blanc_normal/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/blanc_swimwear/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/vert_classic/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/vert_normal/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/vert_swimwear/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/nepgear/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/nepgear_extra/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/nepgearswim/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/histoire/index.json",
-      "/live2d-widget/live2d_api/model/HyperdimensionNeptunia/histoirenohover"
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/neptune_classic/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/nepnep/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/neptune_santa/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/nepmaid/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/nepswim/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/noir_classic/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/noir/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/noir_santa/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/noireswim/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/blanc_classic/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/blanc_normal/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/blanc_swimwear/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/vert_classic/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/vert_normal/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/vert_swimwear/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/nepgear/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/nepgear_extra/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/nepgearswim/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/histoire/index.json",
+      "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/HyperdimensionNeptunia/histoirenohover"
     ],
     "message": "Nep! Nep! 超次元游戏：海王星 系列"
   }, {
     "name": "Hiyori",
     "paths": ["https://fastly.jsdelivr.net/gh/Live2D/CubismWebSamples/Samples/Resources/Hiyori/Hiyori.model3.json"],
     "message": "是 Hiyori 哦 ~"
-  },{
-    "name": "ShizukuTalk",
-    "paths": ["/live2d-widget/live2d_api/model/ShizukuTalk/shizuku-48/index.json",
-    "/live2d-widget/live2d_api/model/ShizukuTalk/shizuku-pajama/index.json"
-    ],
-    "message": "Shizuku 登场！要一起学习吗？~"
+    },{
+      "name": "ShizukuTalk",
+      "paths": ["/live2d-widget/live2d_api/model/ShizukuTalk/shizuku-48/index.json",
+      "/live2d-widget/live2d_api/model/ShizukuTalk/shizuku-pajama/index.json"
+      ],
+      "message": "Shizuku 登场！要一起学习吗？~"
+    },{
+      "name": "rem",
+      "paths": ["/live2d-widget/live2d-enable/rem/model.json"
+      ],
+      "message": "菜月昴君，雷姆在此守候多时~"
+    },{
+      "name": "和泉纱雾",
+      "paths": ["/live2d-widget/live2d-enable/sagiri/model.json"
+      ],
+      "message": "笨蛋哥哥 笨蛋笨蛋！~"
+    },{
+      "name": "芙宁娜",
+      "paths": ["/live2d-widget/live2d-enable/furina/furina-prpr/芙宁娜.model3.json"
+      ],
+      "message": "旅行者！一起再去冒险吧~"
   }]
 }
